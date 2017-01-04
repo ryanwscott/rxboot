@@ -1,6 +1,6 @@
 RxBoot - SpringBoot with RxJava Examples
 ===
-This project demonstrates using [RxJava]() with SpringBoot. The goal is to create a SpringBoot application that uses nothing by reactive code from the entry controllers down.
+This project demonstrates using [RxJava](https://github.com/ReactiveX/RxJava) with SpringBoot. The goal is to create a SpringBoot application that uses nothing by reactive code from the entry controllers down.
 
 ## Building
 ```bash
