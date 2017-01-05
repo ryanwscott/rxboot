@@ -1,3 +1,10 @@
+/*
+ * Copyright 2016
+ * Released under the Apache 2 license
+ * https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @authors Ryan Scott
+ */
 package io.expanse.rxboot.config;
 
 import org.springframework.core.MethodParameter;
@@ -13,7 +20,7 @@ import rx.Observable;
  * This is used in conjunction with {@link RxbootConfiguration} to allow controllers to
  * return straight {@link Observable} types.
  */
-public class ObservReturnValueHandler implements HandlerMethodReturnValueHandler {
+public class ObservableReturnValueHandler implements HandlerMethodReturnValueHandler {
 
     @Override
     public boolean supportsReturnType(MethodParameter returnType) {
